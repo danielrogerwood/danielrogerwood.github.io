@@ -1,4 +1,4 @@
-# Week 5: Algorithms 
+# Week 5: Algorithms
 
 Last week you built up a toolkit of ruby methods. You practiced with them and gained a good intuition of how they work, what they're used for, and so on. This week you'll use that toolkit to solve some more complex problems.
 
@@ -17,12 +17,13 @@ Before starting this week's material, be sure to [fetch all curriculum changes](
 
 #### Everyday
 - Practice touch typing in Ruby on Rails and JavaScript / jQuery with [typing.io](https://typing.io). You should be past 40wpm by the end of phase zero.
-- Practice sublime text, terminal, and git shortcuts with [shortcutfoo.com](https://www.shortcutfoo.com/).
+- Study + practice sublime text shortcuts [Mac](http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/reference/keyboard_shortcuts_osx.html)/[Windows/Linux](http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/reference/keyboard_shortcuts_win.html),
+- Study + practice [terminal commands](http://cli.learncodethehardway.org/book/)
 
 ## Submitting your work
 
 - You must complete the [week's submission form](http://goo.gl/forms/PTNmDL8Lnv) to turn in your work.
-- The week's work is due each Sunday by 11:59pm.  
+- The week's work is due each Sunday by 11:59pm.
 
 **if you do not finish by the deadline:**
 
