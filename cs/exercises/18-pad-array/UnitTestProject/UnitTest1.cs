@@ -10,14 +10,14 @@ namespace UnitTestProject
     {
         private List<List<object>> _allArrays;
         private List<object> _emptyArray, _array, _longArray, _randomArray;
-        private Program _subject;
+        private Pad _subject;
 
         [SetUp]
         public void Init()
         {
-            _subject = new Program();
+            _subject = new Pad();
             _emptyArray = new List<object>();
-            _array = new List<object> {1, 2, 3};
+            _array = new List<object> { 1, 2, 3 };
             _longArray = new List<object>();
             for (var i = 0; i < 10; i++)
             {
@@ -31,13 +31,13 @@ namespace UnitTestProject
                 _randomArray.Add(HelperMethods.getRandom(1, 10));
             }
 
-            _allArrays = new List<List<object>> {_emptyArray, _array, _longArray, _randomArray};
+            _allArrays = new List<List<object>> { _emptyArray, _array, _longArray, _randomArray };
         }
 
         [Test]
         public void HasPadOriginalMethod()
         {
-            var padOriginalMethod = HelperMethods.getMethod(typeof (Program), "PadOriginal");
+            var padOriginalMethod = HelperMethods.getMethod(typeof(Pad), "PadOriginal");
 
             Assert.IsNotNull(padOriginalMethod);
         }
@@ -45,7 +45,7 @@ namespace UnitTestProject
         [Test]
         public void HasPadNewMethod()
         {
-            var padNewMethod = HelperMethods.getMethod(typeof (Program), "PadNew");
+            var padNewMethod = HelperMethods.getMethod(typeof(Pad), "PadNew");
 
             Assert.IsNotNull(padNewMethod);
         }
@@ -119,14 +119,14 @@ namespace UnitTestProject
         public void PadsWithZeroByDefault()
         {
             var result = _subject.PadNew(_emptyArray, 2);
-            Assert.AreEqual(result, new List<object> {0, 0});
+            Assert.AreEqual(result, new List<object> { 0, 0 });
         }
 
         [Test]
         public void CanPadWithAString()
         {
             var result = _subject.PadNew(_emptyArray, 2, "hello");
-            Assert.AreEqual(result, new List<object> {"hello", "hello"});
+            Assert.AreEqual(result, new List<object> { "hello", "hello" });
         }
 
         [Test]
@@ -134,7 +134,7 @@ namespace UnitTestProject
         {
             var awesome = new AwesomeClass();
             var result = _subject.PadNew(_emptyArray, 2, awesome);
-            Assert.AreEqual(result, new List<object> {awesome, awesome});
+            Assert.AreEqual(result, new List<object> { awesome, awesome });
         }
 
         public class AwesomeClass

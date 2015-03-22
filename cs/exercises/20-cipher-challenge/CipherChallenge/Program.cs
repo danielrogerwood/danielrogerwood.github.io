@@ -1,16 +1,27 @@
-﻿using System;
+﻿/******************** Summary *************************
+Exercise: Refactor the Martian Cypher Challenge
+
+This exercise is presented in the format of a working console app. You will be familiar with console apps from the Microsoft Virtual Academy Videos. 
+
+Console apps must always have a project assigend as the starting project and that project must have a static void Main method in one of the classes.
+
+Static will be covered in more depth later. In short it means the Main method does not belong to a specific object and can be called without instantiation. 
+That sounds very cryptic - so just roll with it for now and expect to see it in every Console App.
+*******************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace CipherChallenge
 {
-    internal class Program
+   public class Program
     {
         // The static void main is the starting point of any Console App. ie we have to have one.
         private static void Main(string[] args)
         {
             // Here an instance of the cipher class is created (right of the =) and assigned to a variable of the same type that is called cipher.
-            var cipher = new CipherChallenge();
+            CipherChallengeClass cipher = new CipherChallengeClass();
 
             Console.WriteLine(cipher.MartianCipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw?"));
 
@@ -19,13 +30,13 @@ namespace CipherChallenge
         }
     }
 
-    public class CipherChallenge
+    public class CipherChallengeClass
     {
         // RUN THE CODE BEFORE YOU MAKE ANY CHANGES.
         // What if the code doesn't even work? (It does, but you should still always run it before making changes)!
         // HINTS:
         //   If you do not understand what a line of code is doing. Go into the console and try to figure out how it works.
-        //   Use Console.WriteLine statements to track what your program is doing at each step. See line 62 for an example.
+        //   Use Console.WriteLine statements to track what your program is doing at each step. See line 89 for an example.
 
         public String MartianCipher(String codedMessage)
         {
@@ -71,7 +82,7 @@ namespace CipherChallenge
                 // Why would this be assigned to false from the outset? What happens when it's true?
                 foreach (var pair in cipher)
                 {
-                    var y = pair.Key;
+                    char y = pair.Key;
                     if (x == y)
                         // What is this comparing? Where is it getting x? Where is it getting y? What are those variables really?
                     {

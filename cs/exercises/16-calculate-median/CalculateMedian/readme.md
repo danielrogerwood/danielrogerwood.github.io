@@ -15,11 +15,11 @@ For example the driver code might look like this:
 
 ```
 // Driver code is code that uses a method.  
-Console.WriteLine(Median(new List<int>{1,2,3}));  
+Median(new List<int>{1,2,3});  
 => 2  
-Console.WriteLine(Median(new List<int>{4,5,0,-1}));  
+Median(new List<int>{4,5,0,-1});  
 => 0  
-Console.WriteLine(Median(new List<int>{-100,100}));  
+Median(new List<int>{-100,100});  
 => 0.0  
 ```
 
@@ -27,7 +27,7 @@ ToDo:
 
 1. [Pseudocode](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/coding-references/pseudocode.md).  
 2. Add and commit your changes.  
-3. Write your own driver code. Use the above as a guide.
+3. Look at the driver code in the tests. Use the above as a guide.
 4. Write your best Initial Solution (Remember this is off of memory).  
 5. Refactor the initial solution to pass the tests.  
 6. Peek at the solution and if you dont understand something put a post on slack and start a discussion.  

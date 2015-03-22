@@ -1,4 +1,4 @@
-#Create a Method to Pad an Array
+#Create a Method to Pad a Collection
 
 ## Learning Competencies
 - Use tests to guide development
@@ -9,7 +9,7 @@
 
 Implement the method `PadNew` and `PadOriginal`.  Each method accepts a minimum size (non-negative integer) and an optional pad value as arguments.
 
-If the array's length is less than the minimum size, `Pad` should return a new `List<int>` padded with the pad value up to the minimum size.
+If the `List<int>` length is less than the minimum size, `Pad` should return a new `List<int>` padded with the pad value up to the minimum size.
 
 For example,  
 

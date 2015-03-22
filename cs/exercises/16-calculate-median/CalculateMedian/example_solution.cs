@@ -1,26 +1,15 @@
-﻿/************************* This File is set to not compile so is not part of the working solution *****************************/
-using System;
-using System.Collections.Generic;
-using System.Runtime.Remoting.Channels;
-
-namespace PadArray
+﻿/********************************* This File is not compiled or tested ********************************/
+namespace CalculateMedian
 {
-    public class Program
+    public float Median(List<int> list)
     {
-        private static void Main(string[] args)
+        list.Sort();
+        if (list.Count % 2 == 0)
         {
+            var sum = list[(list.Count / 2) - 1] + list[list.Count / 2];
+            return sum / (float)2.0;
         }
-
-        public static float Median(List<int> list)
-        {
-            list.Sort();
-            if (list.Count % 2 == 0)
-            {
-                var sum = list[(list.Count / 2) - 1] + list[list.Count / 2];
-                return sum / (float)2.0;
-            }
-            var temp = list[list.Count / 2];
-            return temp;
-        }
+        var temp = list[list.Count / 2];
+        return temp;
     }
 }
