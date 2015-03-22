@@ -51,10 +51,10 @@ ii solution_name.sln
 
 If you need, you can review [these guidelines](../../../phase-0-handbook/submission-guidelines) on submitting challenges.
 
-- You must complete the [week's submission form](http://goo.gl/forms/2XBsRXjl4V) to turn in your work.
+- You must complete the [week's submission form](http://goo.gl/forms/PTNmDL8Lnv) to turn in your work.
 - The week's work is due by midnight on Sunday. (Otherwise it turns into a pumpkin)
 
 **if you do not finish by the deadline:**
 
 - Complete an extension request by emailing your facilitator. (There are a limited number of extensions available during phase-0)
-- When complete, turn it in using the [week's submission form](http://goo.gl/forms/2XBsRXjl4V)
+- When complete, turn it in using the [week's submission form](http://goo.gl/forms/PTNmDL8Lnv)
