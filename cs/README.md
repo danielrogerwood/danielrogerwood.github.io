@@ -43,7 +43,7 @@ ii solution_name.sln
 
 ##PluralSight
 
-[Revision: Introduction ta C# (especially the "Hello, Visual Studio")](http://www.pluralsight.com/courses/csharp-fundamentals-csharp5)  
+[Revision: Introduction to C# (especially the "Hello, Visual Studio")](http://www.pluralsight.com/courses/csharp-fundamentals-csharp5)  
 [Stretch: Exceptions](http://www.pluralsight.com/courses/csharp-from-scratch)   
 [Stretch: Types and Assemblies](http://www.pluralsight.com/courses/csharp-fundamentals-csharp5)   
 
