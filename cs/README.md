@@ -1,5 +1,4 @@
 #Intro to weeks 5-7
-**[Before starting this week's material, be sure to fetch all curriculum changes](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/fetching-changes.md).**
 
 The structure of the next three weeks present you with a list of videos to watch from Microsoft Virtual Academy C# fundamentals course, a list of EDA C# challenges and a list of stretch videos on PluralSight.
 
