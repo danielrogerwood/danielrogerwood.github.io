@@ -4,6 +4,8 @@ Last week you built up a toolkit of ruby methods. You practiced with them and ga
 
 If you need, you can review [these guidelines](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/submission-guidelines.md) on submitting challenges.
 
+**Remember to fork and clone your repo. See week 1 [git challenge](https://github.com/dev-academy-phase0/phase-0-week-1/tree/master/git_practice) for fork/clone workflow.**  
+
 1. [Add It Up](./1-add-it-up)
 2. [Pad An Array](./2-pad-array)
 3. [Calculate the Mode](./3-calculate-mode)
