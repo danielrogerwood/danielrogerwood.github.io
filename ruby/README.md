@@ -2,10 +2,10 @@
 
 Last week you built up a toolkit of ruby methods. You practiced with them and gained a good intuition of how they work, what they're used for, and so on. This week you'll use that toolkit to solve some more complex problems.
 
-If you need, you can review [these guidelines](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/submission-guidelines.md) on submitting challenges.
+## 1. Fork and clone this repo
+[Reminder](https://github.com/dev-academy-phase0/phase-0-week-1/blob/master/git_practice/README.md#written-instructions-from-video)
 
-**Remember to fork and clone your repo. See week 1 [git challenge](https://github.com/dev-academy-phase0/phase-0-week-1/tree/master/git_practice) for fork/clone workflow.**  
-
+## 2. Complete Challenges 
 1. [Add It Up](./1-add-it-up)
 2. [Pad An Array](./2-pad-array)
 3. [Calculate the Mode](./3-calculate-mode)
@@ -20,8 +20,8 @@ If you need, you can review [these guidelines](https://github.com/dev-academy-ph
 - Study + practice sublime text shortcuts [Mac](http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/reference/keyboard_shortcuts_osx.html)/[Windows/Linux](http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/reference/keyboard_shortcuts_win.html),
 - Study + practice [terminal commands](http://cli.learncodethehardway.org/book/)
 
-## Submitting your work
-
+## 3. Submit your work
+If you need, you can review [these guidelines](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/submission-guidelines.md) on submitting challenges.
 - You must complete the [week's submission form](http://goo.gl/forms/PTNmDL8Lnv) to turn in your work.
 - The week's work is due each Sunday by 11:59pm.
 
