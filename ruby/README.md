@@ -34,5 +34,5 @@ If you need, you can review [these guidelines](https://github.com/dev-academy-ph
 Bookmark or download these and refer to them as you complete phase-0 
   - [Book of Ruby, Huw Collingbourne](https://drive.google.com/open?id=0B5aB0OHeInzgeFY2S1JxNXB5anM&authuser=0)
   - [The Well grounded Rubyiest, David A. Black](https://drive.google.com/open?id=0B5aB0OHeInzgXzFFd1ZhT2lUTjA&authuser=0)
-  - [Learn to Program, Chris Pine](https://drive.google.com/drive/u/0/#folders/0B7cQjrm1fPUkVmY2NEJ0WHIxb0E/0B6woaNQ1lWOtS1h1dDgtLUVCejA/0B5aB0OHeInzgeWZoQm9VaWJQeWc/0B5aB0OHeInzgeU5vWjRpajFmcWs)
+  - [Learn to Program, Chris Pine](https://drive.google.com/open?id=0B5aB0OHeInzgOWE3dF9tMzByVVk&authuser=0)
   - [Why's Poignant Guide](http://www.rubyinside.com/media/poignant-guide.pdf)
