@@ -3,7 +3,7 @@
 Last week you built up a toolkit of ruby methods. You practiced with them and gained a good intuition of how they work, what they're used for, and so on. This week you'll use that toolkit to solve some more complex problems.
 
 ## To-Do
-1. Fork and clone this repo [reminder instructions](https://github.com/dev-academy-phase0/phase-0-week-1/blob/master/git_practice/README.md)
+1. Fork and clone this repo ([reminder instructions](https://github.com/dev-academy-phase0/phase-0-week-1/blob/master/git_practice/README.md))
 2. [Add It Up](./1-add-it-up)
 3. [Pad An Array](./2-pad-array)
 4. [Calculate the Mode](./3-calculate-mode)
