@@ -17,7 +17,11 @@ $overlay.append($caption);
 $("body").append($overlay);
 
 // Capture the click event on a link to an image
+<<<<<<< HEAD
 $("#imageGallery a").click(function(event){
+=======
+$("#gallery a").click(function(event){
+>>>>>>> acc488325168a8d7a2299dcded3ec3b8e214fb26
   event.preventDefault();
   var imageLocation = $(this).attr("href");
   
@@ -28,7 +32,11 @@ $("#imageGallery a").click(function(event){
   $overlay.show();
 
   // Get child's alt attribute and set caption
+<<<<<<< HEAD
   var captionText = $(this).children("img").attr("alt");
+=======
+  var captionText = $(this).children("a").attr("p");
+>>>>>>> acc488325168a8d7a2299dcded3ec3b8e214fb26
   $caption.text(captionText);
 });
 
@@ -40,4 +48,8 @@ $overlay.click(function(){
   
 });
 
+<<<<<<< HEAD
 //* Lightbox example finished *//
+=======
+//* Lightbox example finished *//
+>>>>>>> acc488325168a8d7a2299dcded3ec3b8e214fb26
